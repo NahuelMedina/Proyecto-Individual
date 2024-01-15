@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* NAVBAR */
+.nav_bar_container {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_bar_container div img {
+  width: 400px;
+  height: 50px;
+}
+
+.nav_bar_container div ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.nav_bar_container div ul li {
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.input-search-container input {
+  background: rgba(0, 0, 0, 0.445);
+  border: 1px solid #000;
+  width: 300px;
+  height: 38px;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.input-search-container button {
+  cursor: pointer;
+  border: 1px solid #000;
+  width: 60px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.input-search-container button:hover {
+  background: linear-gradient(to right, #ff2800, #fff);
+}
+
+/* LANDING */
+
+.landing_container {
+  display: flex;
+  background: url("https://www.hdwallpapers.in/download/f1_race-HD.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HOME */
+
+.home_container {
+  background: url("https://www.hdwallpapers.in/download/f1_race-HD.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* FORM */
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  color: #fff;
+}
+
+/* CARDS */
+
+.card-container {
+  text-align: center;
+  width: 12rem;
+  color: #fff;
+}
+
+.cards-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.driver-image {
+  width: 8rem;
+}
